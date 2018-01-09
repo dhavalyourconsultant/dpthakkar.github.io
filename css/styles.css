@@ -968,7 +968,7 @@ ul.slimmenu li>ul>li ul {
 .rex-feature {
     /* Feature style */
     padding: 100px 0;
-    background: url(http://placehold.it/2000x1333) no-repeat;
+    background: url(../img/Area-of-Services.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -1139,7 +1139,7 @@ ul.slimmenu li>ul>li ul {
 
 #call-to-action {
     padding: 50px 0;
-    background: url(http://placehold.it/1921x135) no-repeat rgba(0, 0, 0, 0.8);
+    background: url(../img/Area-of-Services.jpg) no-repeat rgba(0, 0, 0, 0.8);
     background-position: center;
     background-size: cover;
 }
@@ -1488,13 +1488,6 @@ ul.slimmenu li>ul>li ul {
 
 .rex-blog .post-meta i {
     margin-left: 0;
-}
-
-.rx-iner-page-titel {
-    background: url(http://placehold.it/1921x135) no-repeat center center;
-    text-align: center;
-    background-size: cover;
-    padding: 45px 0 40px;
 }
 
 .rx-iner-page-titel h2 {
