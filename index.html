@@ -776,26 +776,33 @@
                 <div class="form-section">
                     <h6>send your message</h6>
 
-                    <form method="post">
+                    <div class="error-message"></div>
+
+                    <form method="post" id="contact-us-form">
+                        <input type="text" name="_gotcha" style="display:none">
+
                         <div class="form-group rx-form-group">
                             <div class="col-md-6 col-sm-12 form-group">
                                 <i class="fa fa-chevron-right select"></i>
-                                <input type="text" placeholder="Name" class="form-control" id="input1" aria-required="true" value="" name="name">
+
+                                <input type="text" placeholder="Name" class="form-control" id="input1" name="name" required>
                             </div>
 
                             <div class="col-md-6 col-sm-12 form-group">
                                 <i class="fa fa-chevron-right"></i>
-                                <input type="email" name="email" placeholder="email" class="form-control" aria-required="true" value="">
+
+                                <input type="email" name="email" placeholder="email" class="form-control" aria-required="true" required>
                             </div>
                         </div>
 
                         <div class="col-md-12 col-sm-12 form-group  rx-form-group rex-textarea">
                             <i class="fa fa-chevron-right"></i>
+
                             <textarea placeholder="Your Message ..." name="message" rows="7" class="form-control"></textarea>
                         </div>
 
                         <div class="col-md-12 col-xs-12 form-group">
-                            <button class="btn btn-default" type="submit" name="sendMessage" value="send">Submit</button>
+                            <button class="btn btn-default" type="submit" value="send">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -912,5 +919,35 @@
     <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyATucbYk5IVa4ePG3BkH_VDapI2Bz1A_Zw"></script>
     <script src="js/vendor/counter.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#contact-us-form").submit(function (event) {
+                event.preventDefault();
+
+                $.ajax({
+                    url: "https://formspree.io/dhaval.yourconsultant@gmail.com",
+                    method: "POST",
+                    data: $(this).serialize(),
+                    dataType: "json"
+                }).done(function (json) {
+                    var message = `
+                        <div class="alert alert-success">
+                            <strong>Success!</strong> Mail Send Sucessfully.
+                        </div>
+                    `;
+                    $(".error-message").html(message);
+                }).fail(function (xhr, status, errorThrown) {
+                    var message = `
+                        <div class="alert alert-danger">
+                            <strong>Error!</strong> Sorry, there was a problem!
+                        </div>
+                    `;
+
+                    $(".error-message").html(message);
+                })
+            });
+        });
+    </script>
 </body>
 </html>
