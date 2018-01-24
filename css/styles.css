@@ -2215,10 +2215,6 @@ singel Blog Page css
     background: #fff;
 }
 
-.blog-page .container {
-    padding: 100px 0;
-}
-
 .blog-img {
     border: 2px solid #f3f3f3;
 }
@@ -3789,4 +3785,36 @@ footer p {
 
 .disabled {
     cursor: not-allowed
+}
+.area-content {
+    height: 63px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.rx-iner-page-titel {
+    background: url(../img/call-to-action.png) no-repeat center center;
+    text-align: center;
+    background-size: cover;
+    padding: 45px 0 40px;
+}
+.service-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.service-container > div {
+    display: none;
+    padding-top: 10%;
+}
+.service-container > div:nth-child(1) {
+    display: block;
+}
+#services-lists a {
+    cursor: pointer;
+}
+.rex-widget .content {
+    padding-top: 17%;
 }
