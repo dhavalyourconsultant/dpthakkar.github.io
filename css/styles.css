@@ -1097,9 +1097,7 @@ ul.slimmenu li>ul>li ul {
 }
 
 .rex-service .rex-service-content {
-    padding-left: 70px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 50px 100px 70px;
 }
 .rex-service .rex-service-content ul li{
     line-height: 25px;
@@ -1657,7 +1655,12 @@ ul.slimmenu li>ul>li ul {
 .plan {
     padding-bottom: 100px;
     padding-top: 100px;
-    background: rgba(99, 99, 99, .19);
+    background: url(../img/resources.jpg) center no-repeat;
+    background-size: cover;
+    background-size: cover;
+}
+.plan .rex-heading h3 {
+    color: white;
 }
 
 .plan .col {
