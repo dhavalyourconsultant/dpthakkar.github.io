@@ -3804,10 +3804,20 @@ footer p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 15px;
+    text-indent: 6em;
 }
 .service-container > div {
     display: none;
     padding-top: 10%;
+}
+.service-container li {
+    font-size: 18px;
+}
+.service-container ol {
+    padding-left: 55px;
+}
+.service-container ul p {
+    text-indent: 2em;
 }
 .service-container > div:nth-child(1) {
     display: block;
