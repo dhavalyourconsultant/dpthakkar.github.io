@@ -17,13 +17,18 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/vendor/slimmenu.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.min.css">
     <link href='//fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 
     <style media="screen">
         .logo {
             font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, cursive;
-            font-size: 1.5em;
+            font-size: 1.9em;
+        }
+        .rex-logo p {
+            color: #6c6c6c;
+            font-size: 15px;
+            letter-spacing: 3px;
         }
     </style>
 </head>
@@ -78,6 +83,9 @@
                                 <span>D. P. Thakkar &amp; Co.</span>
                             </strong>
                         </a>
+                        <p>
+                            Chartered Accountant
+                        </p>
                     </div>
                 </div>
 
@@ -120,11 +128,11 @@
 
                 <div class="container">
                     <div class="rex-caption">
-                        <h3 class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.7s">
+                        <h4 class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.7s">
                             <span style="color:#FB6542;">
                                 WELCOME TO D. P. THAKKAR & CO.
                             </span>
-                        </h3>
+                        </h4>
 
                         <p class="wow fadeInLeft col-xs-12 col-sm-8" data-wow-duration="0.8s" data-wow-delay="0.5s" style="color:#fff;">
                             D. P. Thakkar & Co. is a firm of Chartered Accountants offering its clients services in the areas of Direct Taxation – Both
@@ -696,7 +704,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="footer-logo-area wow zoomIn" data-wow-duration="1.2s" data-wow-delay="0.2s">
-                        <a href="home.php" class="logo">
+                        <a href="index.html" class="logo">
                             <span>
                                 <strong>
                                     D. P. Thakkar &amp; Co.
@@ -766,10 +774,6 @@
             <div class="row">
                 <div class="col-md-12">
                     <p>
-                        Made with love
-                        <span>
-                            <i class="fa fa-heart"></i>
-                        </span>
                         Copyright &copy; 2018 - All Rights Reserved By D. P. Thakkar &amp; Co.
                     </p>
                 </div>
@@ -806,7 +810,7 @@
                 event.preventDefault();
 
                 $.ajax({
-                    url: "https://formspree.io/dhaval.yourconsultant@gmail.com",
+                    url: "https://formspree.io/dhaval@dpthakkar.com",
                     method: "POST",
                     data: $(this).serialize(),
                     dataType: "json"

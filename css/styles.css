@@ -641,12 +641,10 @@ div.loading img {
 }
 
 nav {
-    padding: 25px 0 0;
+    padding: 10px 0 0;
     border-bottom: 1px solid #e0e0e0;
     background: #fff;
     z-index: 9999;
-    /* Navigation Style */
-    /* Search button */
 }
 
 nav .content {
@@ -681,7 +679,7 @@ nav .rex-navigation-area ul li:last-child ul li .sub-collapser {
 }
 
 nav .rex-navigation-area ul li a {
-    padding: 0 0 24px;
+    padding: 14px 0 5px;
     background: #fff;
     color: #6c6c6c;
     -webkit-transition: 0.2s;
@@ -3805,6 +3803,7 @@ footer p {
     line-height: 1.5;
     margin-bottom: 15px;
     text-indent: 6em;
+    text-align: justify;
 }
 .service-container > div {
     display: none;
