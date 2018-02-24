@@ -889,10 +889,9 @@ ul.slimmenu li>ul>li ul {
 }
 
 .rex-caption p {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 19px;
     font-style: italic;
-    line-height: 32px;
+    line-height: 29px;
     text-align: justify;
 }
 
@@ -904,7 +903,7 @@ ul.slimmenu li>ul>li ul {
     position: relative;
 }
 
-.rex-slider .video-bg:before {
+.rex-slider:before {
     content: "";
     position: absolute;
     top: 0;
@@ -3127,7 +3126,11 @@ footer p {
 
 @media only screen and (min-width: 640px) and (max-width: 768px) {
     .rex-caption p {
-        font-size: 13px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .rex-slider .rex-caption {
+        top: 48%;
     }
     .select-row {
         position: relative;
@@ -3145,7 +3148,6 @@ footer p {
     .rex-logo {
         z-index: 999;
         position: relative;
-        width: 50%;
     }
     nav {
         padding: 25px 0;
@@ -3459,7 +3461,11 @@ footer p {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .rex-caption p {
-        font-size: 9px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .rex-slider .rex-caption {
+        top: 50%;
     }
     .rex-sub-title {
         text-align: center;
@@ -3500,7 +3506,6 @@ footer p {
     .rex-logo {
         z-index: 999;
         position: relative;
-        width: 50%;
     }
     .rex-logo a img {
         width: 100%;
