@@ -84,7 +84,7 @@
                             </strong>
                         </a>
                         <p>
-                            Chartered Accountant
+                            Chartered Accountants
                         </p>
                     </div>
                 </div>
@@ -129,12 +129,12 @@
                 <div class="container">
                     <div class="rex-caption">
                         <h4 class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.7s">
-                            <span style="color:#FB6542;">
+                            <span style="color:#ff3000;">
                                 WELCOME TO D. P. THAKKAR & CO.
                             </span>
                         </h4>
 
-                        <p class="wow fadeInLeft col-xs-12 col-sm-8" data-wow-duration="0.8s" data-wow-delay="0.5s" style="color:#fff;">
+                        <p class="wow fadeInLeft col-xs-12 col-sm-8" data-wow-duration="0.8s" data-wow-delay="0.5s" style="color:black;">
                             D. P. Thakkar & Co. is a firm of Chartered Accountants offering its clients services in the areas of Direct Taxation – Both
                             International & Domestic, Indirect Tax, Audit & Assurance and Foreign Exchange Regulations.
                             <br>
@@ -666,8 +666,9 @@
 
                     <div class="error-message"></div>
 
-                    <form method="post" id="contact-us-form">
+                    <form method="post" action="https://formspree.io/dhaval@dpthakkar.com">
                         <input type="text" name="_gotcha" style="display:none">
+                        <input type="hidden" name="_next" value="http://dpthakkar.com">
 
                         <div class="form-group rx-form-group">
                             <div class="col-md-6 col-sm-12 form-group">
@@ -679,7 +680,7 @@
                             <div class="col-md-6 col-sm-12 form-group">
                                 <i class="fa fa-chevron-right"></i>
 
-                                <input type="email" name="email" placeholder="email" class="form-control" aria-required="true" required>
+                                <input type="email" name="email" placeholder="Email" class="form-control" aria-required="true" required>
                             </div>
                         </div>
 
@@ -803,35 +804,5 @@
     <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyATucbYk5IVa4ePG3BkH_VDapI2Bz1A_Zw"></script>
     <script src="js/vendor/counter.js"></script>
     <script src="js/main.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $("#contact-us-form").submit(function (event) {
-                event.preventDefault();
-
-                $.ajax({
-                    url: "https://formspree.io/dhaval@dpthakkar.com",
-                    method: "POST",
-                    data: $(this).serialize(),
-                    dataType: "json"
-                }).done(function (json) {
-                    var message = `
-                        <div class="alert alert-success">
-                            <strong>Success!</strong> Mail Send Sucessfully.
-                        </div>
-                    `;
-                    $(".error-message").html(message);
-                }).fail(function (xhr, status, errorThrown) {
-                    var message = `
-                        <div class="alert alert-danger">
-                            <strong>Error!</strong> Sorry, there was a problem!
-                        </div>
-                    `;
-
-                    $(".error-message").html(message);
-                })
-            });
-        });
-    </script>
 </body>
 </html>
