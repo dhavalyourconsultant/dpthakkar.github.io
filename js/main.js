@@ -67,8 +67,7 @@ jQuery(document).ready(function (e) {
         });
         const contentString = `
             <div id="content">
-                <h3 id="firstHeading" class="firstHeading">D. P. Thakkar & Co.</h3>
-                <p><b>D. P. Thakkar & Co.</b>,
+                <h5 id="firstHeading" class="firstHeading">D. P. Thakkar & Co.</h5>
                 2nd floor Super Shopping Complex, <br>
                 6/B, Bajaj Cross Road, <br>
                 near Ghare Jewellers, <br>
