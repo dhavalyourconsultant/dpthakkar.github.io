@@ -86,6 +86,14 @@ jQuery(document).ready(function (e) {
             googleMapObject,
             shouldFocus: false,
         });
+
+        mapMarker.addListener("click", () => {
+            infoWindow.open({
+                anchor: mapMarker,
+                googleMapObject,
+                shouldFocus: false,
+            });
+        });
     }
     e(".count-title").data("countToOptions", {
         formatter: function (e, a) {
