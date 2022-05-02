@@ -77,11 +77,11 @@ jQuery(document).ready(function (e) {
             </div>
         `;
 
-        new google.maps.InfoWindow({
+        var infoWindow = new google.maps.InfoWindow({
             content: contentString,
         });
 
-        infowindow.open({
+        infoWindow.open({
             anchor: mapMarker,
             googleMapObject,
             shouldFocus: false,
