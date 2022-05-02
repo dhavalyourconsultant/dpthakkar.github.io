@@ -59,11 +59,32 @@ jQuery(document).ready(function (e) {
         var t = { center: new google.maps.LatLng(19.2035764, 72.8507969), zoom: 18, mapTypeId: google.maps.MapTypeId.ROADMAP };
         var googleMapObject = new google.maps.Map(document.getElementById("googleMap"), t);
 
-        new google.maps.Marker({
+        var mapMarker = new google.maps.Marker({
             position: { lat: 19.2035764, lng: 72.8507969 },
             map: googleMapObject,
             icon: '/img/map-marker.png',
             title: 'D. P. Thakkar & Co.',
+        });
+        const contentString = `
+            <div id="content">
+                <h1 id="firstHeading" class="firstHeading">D. P. Thakkar & Co.</h1>
+                <p><b>D. P. Thakkar & Co.</b>,
+                2nd floor Super Shopping Complex, <br>
+                6/B, Bajaj Cross Road, <br>
+                near Ghare Jewellers, <br>
+                Kandivali West, <br>
+                Mumbai, Maharashtra 400067
+            </div>
+        `;
+
+        new google.maps.InfoWindow({
+            content: contentString,
+        });
+
+        infowindow.open({
+            anchor: mapMarker,
+            googleMapObject,
+            shouldFocus: false,
         });
     }
     e(".count-title").data("countToOptions", {
