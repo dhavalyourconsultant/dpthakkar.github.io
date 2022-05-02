@@ -57,7 +57,7 @@ jQuery(document).ready(function (e) {
         e("#googleMap").length)
     ) {
         var t = { center: new google.maps.LatLng(19.2035764, 72.8507969), zoom: 18, mapTypeId: google.maps.MapTypeId.ROADMAP };
-        new google.maps.Map(document.getElementById("googleMap"), t);
+        var googleMapObject = new google.maps.Map(document.getElementById("googleMap"), t);
 
         new google.maps.Marker({
             position: { lat: 19.2035764, lng: 72.8507969 },
