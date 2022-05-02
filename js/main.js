@@ -63,7 +63,7 @@ jQuery(document).ready(function (e) {
             position: { lat: 19.2035764, lng: 72.8507969 },
             map: googleMapObject,
             icon: '/img/map-marker.png',
-            title: showroom.name,
+            title: 'D. P. Thakkar & Co.',
         });
     }
     e(".count-title").data("countToOptions", {
