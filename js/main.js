@@ -69,10 +69,9 @@ jQuery(document).ready(function (e) {
             <div id="content">
                 <h5 id="firstHeading" class="firstHeading">D. P. Thakkar & Co.</h5>
                 Office No. 145, 1st Floor, <br>
-                Shree Naman Plaza, <br>
-                S. V. Road, <br>
-                Kandivali West, <br>
-                Mumbai, Maharashtra 400067
+                Shree Naman Plaza,<br>
+                S. V. Road, Kandivali (West),<br>
+                Mumbai - 400067.
             </div>
         `;
 
