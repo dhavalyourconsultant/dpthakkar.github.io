@@ -60,6 +60,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -1057,6 +1058,7 @@ ul.slimmenu li>ul>li ul {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 #research-article {
     padding-bottom: 0px !important;
 }
@@ -1100,7 +1102,8 @@ ul.slimmenu li>ul>li ul {
 .rex-service .rex-service-content {
     padding: 100px 50px 100px 70px;
 }
-.rex-service .rex-service-content ul li{
+
+.rex-service .rex-service-content ul li {
     line-height: 25px;
 }
 
@@ -1660,6 +1663,7 @@ ul.slimmenu li>ul>li ul {
     background-size: cover;
     background-size: cover;
 }
+
 .plan .rex-heading h3 {
     color: white;
 }
@@ -1734,7 +1738,7 @@ ul.slimmenu li>ul>li ul {
     text-align: center;
 }
 
-.rex-pricing-feature > span > i {
+.rex-pricing-feature>span>i {
     font-size: 3em;
     color: #f86759;
     -webkit-transition: .5s;
@@ -2200,11 +2204,6 @@ clients style
 
 .rx-map #googleMap {
     min-height: 345px;
-    -webkit-filter: gray;
-    filter: gray;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(1);
-    -webkit-filter: grayscale(100%);
 }
 
 
@@ -2950,90 +2949,115 @@ footer p {
     nav {
         padding: 15px 0;
     }
+
     nav .rex-logo {
         padding: 10px 0;
     }
+
     nav .content {
         position: relative;
         top: 15px;
         width: 100%;
     }
+
     nav .rex-navigation-area ul li {
         padding: 0 7px;
     }
+
     nav .rex-navigation-area ul li a {
         font-size: 10px;
     }
+
     nav .rex-search {
         margin-left: 13px;
         padding-left: 7px;
     }
+
     ul.slimmenu li>ul {
         left: -74px;
     }
+
     .rex-navigation-area .menu-collapser {
         background: inherit !important;
     }
+
     .rex-navigation-area .menu-collapser .collapse-button {
         background: #f86759;
         border-radius: 0;
     }
+
     .rex-navigation-area .menu-collapser .collapse-button .icon-bar {
         box-shadow: none;
         background-color: #000;
     }
+
     .rex-about p br {
         display: none;
     }
+
     .rex-about .rex-about-img img {
         width: 100%;
     }
+
     .rex-about .rex-about-text {
         margin-bottom: 40px;
         margin-top: 40px;
     }
+
     .rex-feature article .rex-feature-box h4 {
         font-size: 15px;
     }
+
     .rex-service .select-col-img {
         position: initial;
     }
+
     .rex-service .service-img {
         position: initial;
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0);
     }
+
     .rex-blog p br {
         display: none;
     }
+
     .rex-blog .rex-sub-title h3 a {
         font-size: 11px !important;
     }
+
     .rex-blog .rex-blog-content {
         margin-bottom: 25px;
         padding: 0 15px;
     }
+
     .rex-blog .caption {
         padding-left: 15px;
     }
+
     .rex-blog .post-meta {
         padding: 15px 0;
     }
+
     .rex-blog .post-meta a {
         font-size: 10px;
         margin-right: 5px;
     }
+
     .rex-team .rex-team-content {
         min-height: 351px;
         margin-bottom: 20px;
     }
+
     .rex-team .rex-team-content .rex-team-text p {
         padding-right: 20px;
     }
+
     .rex-team .rex-team-content .rex-team-text p br {
         display: none;
     }
+
     .rex-team .cs-style-7 figcaption .icon-links {
         position: relative;
         bottom: 0;
@@ -3041,34 +3065,43 @@ footer p {
         top: 5px;
         float: left;
     }
+
     .rex-contact .form-section {
         padding: 60px 40px 39px 40px;
     }
+
     .rex-contact .form-section .col-md-6:first-child {
         padding-right: 0;
     }
+
     .rex-contact .form-section .col-md-6:last-child {
         padding-left: 0;
         margin-top: 15px;
     }
+
     .rex-contact .form-section {
         padding: 46px 40px 39px 40px;
     }
+
     .rex-contact .form-section .col-md-6:last-child i {
         left: 14px;
     }
+
     .rex-contact .form-section .col-md-6:first-child {
         padding-right: 15px;
     }
+
     .rex-contact .form-section .col-md-6:last-child {
         padding-left: 10px;
         margin-top: 0;
     }
+
     .rex-clients:hover .owl-theme .owl-controls .owl-buttons div.owl-prev,
     .rex-clients:hover .owl-theme .owl-controls .owl-buttons div.owl-next {
         margin: 0;
         opacity: 1;
     }
+
     .rex-clients .owl-buttons {
         top: -20px;
         left: 0;
@@ -3077,6 +3110,7 @@ footer p {
         -ms-transform: translateY(-100%);
         transform: translateY(-100%);
     }
+
     .rex-clients .owl-theme .owl-controls .owl-buttons div.owl-prev,
     .rex-clients .owl-theme .owl-controls .owl-buttons div.owl-next {
         margin: 0;
@@ -3084,33 +3118,42 @@ footer p {
         float: none;
         margin: 0 10px;
     }
+
     .rx-map #googleMap {
         min-height: 330px;
     }
+
     .footer-top .footer-logo-area {
         margin-bottom: 40px;
     }
+
     .footer-top .content {
         margin-top: 0px;
     }
+
     .footer-top .content:nth-child(3n) {
         margin-left: 50px;
     }
+
     .rex-blog-seftion ul {
         margin: 0;
         padding: 0;
     }
+
     .rex-blog-seftion ul li {
         list-style: none;
     }
+
     .rex-blog-seftion ul li ul li {
         margin-left: 0;
         margin-top: -10px;
     }
+
     .rex-blog-seftion ul li ul li ul li {
         margin-left: 0;
         margin-bottom: 30px;
     }
+
     .table>tbody>tr>td,
     .table>tbody>tr>th,
     .table>tfoot>tr>td,
@@ -3129,112 +3172,142 @@ footer p {
         font-size: 12px;
         line-height: 20px;
     }
+
     .rex-slider .rex-caption {
         top: 48%;
     }
+
     .select-row {
         position: relative;
     }
+
     .col-nav {
         position: absolute;
         top: -13px;
         right: 0;
         width: 100%;
     }
+
     .menu-collapser {
         padding: 0;
         background: none;
     }
+
     .rex-logo {
         z-index: 999;
         position: relative;
     }
+
     nav {
         padding: 25px 0;
     }
+
     nav .content,
     nav .rex-navigation-area {
         width: 92%;
     }
+
     nav .rex-navigation-area ul li:first-child {
         padding: 0 24px;
     }
+
     nav .rex-navigation-area ul li {
         padding: 0;
     }
+
     nav .rex-navigation-area ul li:first-child {
         padding: 0;
     }
+
     nav .rex-navigation-area ul li a {
         padding: 15px;
     }
+
     nav .rex-search {
         top: -37px;
         float: right;
         position: absolute;
         top: 13px;
     }
+
     ul.slimmenu {
         position: relative;
         z-index: 999;
         margin-top: 17px;
     }
+
     ul.slimmenu li .sub-collapser {
         display: block;
         background: none;
     }
+
     ul.slimmenu li>ul {
         width: 100%;
         padding: 0 15px;
     }
+
     nav .rex-navigation-area ul li:last-child .sub-collapser {
         opacity: 1;
     }
+
     .rex-service .select-col-img {
         position: initial;
     }
+
     .rex-service .service-img {
         position: initial;
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0);
     }
+
     .rex-service .select-col {
         float: none;
     }
+
     #call-to-action .block p {
         padding: 25px 0;
     }
+
     .rex-team .row {
         margin: 0;
     }
+
     .rex-team .padding-right {
         padding-right: 15px;
     }
+
     .rex-team .rex-team-img {
         margin-bottom: 25px;
     }
+
     .rex-team .rex-team-content {
         padding-left: 24px;
     }
+
     .rex-team .rex-team figure {
         float: none;
         margin: 0 auto;
     }
+
     .rex-team .cs-style-7 figure img {
         margin: 0 auto;
     }
+
     .rex-team .grid {
         margin: 0 169px;
     }
+
     .rex-about {
         padding-bottom: 6%;
     }
+
     .rex-clients:hover .owl-theme .owl-controls .owl-buttons div.owl-prev,
     .rex-clients:hover .owl-theme .owl-controls .owl-buttons div.owl-next {
         margin: 0;
         opacity: 1;
     }
+
     .rex-clients .owl-buttons {
         top: -20px;
         left: 0;
@@ -3243,6 +3316,7 @@ footer p {
         -ms-transform: translateY(-100%);
         transform: translateY(-100%);
     }
+
     .rex-clients .owl-theme .owl-controls .owl-buttons div.owl-prev,
     .rex-clients .owl-theme .owl-controls .owl-buttons div.owl-next {
         margin: 0;
@@ -3250,42 +3324,53 @@ footer p {
         float: none;
         margin: 0 10px;
     }
+
     .rex-blog .row {
         margin: 0;
     }
+
     .rex-blog .rex-blog-content {
         margin-bottom: 25px;
     }
+
     .plan .col {
         margin-bottom: 20px;
     }
+
     .rx-map #googleMap {
         min-height: 395px;
     }
+
     .footer-top .col-md-3 {
         text-align: center;
         margin-bottom: 20px;
     }
+
     .footer-top .content .address i {
         float: none;
         display: inline-block;
     }
+
     .footer-top .content .address p {
         display: inline;
     }
+
     .footer-top .content .case p:before {
         left: 50%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
     }
+
     .rex-contact .form-section .col-md-6:first-child {
         padding-right: 0;
     }
+
     .rex-contact .form-section .col-md-6:last-child {
         padding-left: 0;
         margin-top: 10px;
     }
+
     .rex-blog-tag-box .rex-tag-left {
         width: 60%;
         float: left;
@@ -3299,97 +3384,122 @@ footer p {
     .rex-caption p {
         font-size: 9px;
     }
+
     .select-row {
         position: relative;
     }
+
     .col {
         position: absolute;
         top: -13px;
         right: 0;
         width: 100%;
     }
+
     .menu-collapser {
         padding: 0;
         background: none;
     }
+
     .rex-logo {
         z-index: 999;
         position: relative;
         width: 50%;
     }
+
     nav {
         padding: 25px 0;
     }
+
     nav .content,
     nav .rex-navigation-area {
         width: 92%;
     }
+
     nav .rex-navigation-area ul li:first-child {
         padding: 0 24px;
     }
+
     nav .rex-navigation-area ul li ul li:first-child {
         padding: 0;
     }
+
     nav .rex-search {
         top: -37px;
         float: right;
         position: absolute;
         top: 13px;
     }
+
     ul.slimmenu {
         position: relative;
         z-index: 999;
         margin-top: 17px;
     }
+
     nav .rex-navigation-area ul li a {
         padding: 20px 0;
     }
+
     ul.slimmenu li .sub-collapser {
         background: none;
     }
+
     ul.slimmenu li>ul {
         width: 100%;
         padding: 0 15px;
     }
+
     nav .rex-navigation-area ul li:last-child .sub-collapser {
         opacity: 1;
     }
+
     .rex-service .select-col-img {
         position: initial;
     }
+
     .rex-service .service-img {
         position: initial;
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0);
     }
+
     .rex-service .select-col {
         float: none;
     }
+
     #call-to-action .block p {
         padding: 25px 0;
     }
+
     .rex-team .row {
         margin: 0;
     }
+
     .rex-team .padding-right {
         padding-right: 15px;
     }
+
     .rex-team .rex-team figure {
         float: none;
         margin: 0 auto;
     }
+
     .rex-team .cs-style-7 figure img {
         margin: 0 auto;
     }
+
     .rex-team .grid {
         margin: 0 106px;
     }
+
     .rex-clients:hover .owl-theme .owl-controls .owl-buttons div.owl-prev,
     .rex-clients:hover .owl-theme .owl-controls .owl-buttons div.owl-next {
         margin: 0;
         opacity: 1;
     }
+
     .rex-clients .owl-buttons {
         top: -20px;
         left: 0;
@@ -3398,6 +3508,7 @@ footer p {
         -ms-transform: translateY(-100%);
         transform: translateY(-100%);
     }
+
     .rex-clients .owl-theme .owl-controls .owl-buttons div.owl-prev,
     .rex-clients .owl-theme .owl-controls .owl-buttons div.owl-next {
         margin: 0;
@@ -3405,51 +3516,64 @@ footer p {
         float: none;
         margin: 0 10px;
     }
+
     .rex-blog .row {
         margin: 0;
     }
+
     .plan .col {
         margin-bottom: 20px;
     }
+
     .footer-top .col-md-3 {
         text-align: center;
         margin-bottom: 20px;
     }
+
     .footer-top .content .address i {
         float: none;
         display: inline-block;
     }
+
     .footer-top .content .address p {
         display: inline;
     }
+
     .footer-top .content .case p:before {
         left: 50%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
     }
+
     .rex-contact .form-section .col-md-6:first-child {
         padding-right: 0;
     }
+
     .rex-contact .form-section .col-md-6:last-child {
         padding-left: 0;
         margin-top: 10px;
     }
+
     .rex-blog-seftion ul {
         margin: 0;
         padding: 0;
     }
+
     .rex-blog-seftion ul li {
         list-style: none;
     }
+
     .rex-blog-seftion ul li ul li {
         margin-left: 5px;
         margin-top: -10px;
     }
+
     .rex-blog-seftion ul li ul li ul li {
         margin-left: 5px;
         margin-bottom: 30px;
     }
+
     .rex-blog-tag-box .rex-tag-left {
         width: 100%;
         margin-bottom: 20px;
@@ -3464,12 +3588,15 @@ footer p {
         font-size: 10px;
         line-height: 10px;
     }
+
     .rex-slider .rex-caption {
         top: 50%;
     }
+
     .rex-sub-title {
         text-align: center;
     }
+
     .rex-sub-title:before,
     .rex-sub-title:after {
         left: 50%;
@@ -3477,132 +3604,167 @@ footer p {
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
     }
+
     header .rex-addres-section {
         float: none;
         text-align: center;
     }
+
     header .rex-addres-section a {
         display: block;
     }
+
     header .rex-media-link {
         margin-top: 20px;
         float: none;
         text-align: center;
     }
+
     .sticky-wrapper {
         position: relative;
     }
+
     .col-nav {
         position: absolute;
         top: 11px;
         right: 0;
         width: 100%;
     }
+
     .menu-collapser {
         padding: 0;
         background: none;
         z-index: 999;
     }
+
     .rex-logo {
         z-index: 999;
         position: relative;
     }
+
     .rex-logo a img {
         width: 100%;
     }
+
     nav {
         padding: 25px 0;
     }
+
     nav .content,
     nav .rex-navigation-area {
         width: 80%;
         z-index: 9999;
     }
+
     nav .rex-navigation-area ul li {
         padding: 0;
     }
+
     nav .rex-navigation-area ul li:first-child {
         padding: 0;
     }
+
     nav .rex-navigation-area ul li a {
         padding: 15px;
     }
+
     nav .rex-search {
         top: -37px;
         float: right;
         position: absolute;
         top: 13px;
     }
+
     ul.slimmenu {
         position: relative;
         z-index: 99999;
         margin-top: 10px;
     }
+
     ul.slimmenu li .sub-collapser {
         background: none;
     }
+
     ul.slimmenu li>ul {
         width: 100%;
         padding: 0 0;
     }
+
     ul.slimmenu.collapsed li a {
         border: 0;
     }
+
     nav .rex-navigation-area ul li:last-child .sub-collapser {
         opacity: 1;
     }
+
     .rex-slider .video-bg {
         height: 500px;
     }
+
     .rex-slider {
         min-height: 200px;
     }
+
     .rex-slider img {
         min-height: 200px;
     }
+
     .rex-slider .rex-caption h1 {
         font-size: 16px;
     }
+
     .rex-slider .rex-caption h3 {
         font-size: 18px;
         margin-bottom: 4px;
     }
+
     .rex-slider .rex-caption .rex-bottom {
         margin-top: 15px;
         padding: 10px 27px 8px 10px;
     }
+
     .rex-slider .rex-caption .rex-bottom:after {
         top: 12px;
         right: 6px;
     }
+
     .rex-slider .rex-caption .rex-bottom:before {
         display: none;
     }
+
     .rex-slider .rex-caption .rex-bottom:after {
         right: 6px;
         top: 0px;
     }
+
     .rex-service .select-col-img {
         position: initial;
     }
+
     .rex-service .service-img {
         position: initial;
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0);
     }
+
     .rex-service .select-col {
         float: none;
     }
+
     #call-to-action .block p {
         padding: 25px 0;
     }
+
     .rex-team .row {
         margin: 0;
     }
+
     .rex-team .padding-right {
         padding-right: 15px;
     }
+
     .rex-team .rex-team figure {
         float: none;
         margin: 0 auto;
@@ -3610,12 +3772,15 @@ footer p {
         min-width: auto;
         width: 100%;
     }
+
     .rex-team .cs-style-7 figure img {
         margin: 0 auto;
     }
+
     .rex-team .grid {
         margin: 0 0;
     }
+
     .rex-team .cs-style-7 figcaption .icon-links {
         position: initial;
         bottom: 0;
@@ -3623,11 +3788,13 @@ footer p {
         float: left;
         margin-top: 5px;
     }
+
     .rex-clients:hover .owl-theme .owl-controls .owl-buttons div.owl-prev,
     .rex-clients:hover .owl-theme .owl-controls .owl-buttons div.owl-next {
         margin: 0;
         opacity: 1;
     }
+
     .rex-clients .owl-buttons {
         top: -20px;
         left: 0;
@@ -3636,6 +3803,7 @@ footer p {
         -ms-transform: translateY(-100%);
         transform: translateY(-100%);
     }
+
     .rex-clients .owl-theme .owl-controls .owl-buttons div.owl-prev,
     .rex-clients .owl-theme .owl-controls .owl-buttons div.owl-next {
         margin: 0;
@@ -3643,133 +3811,171 @@ footer p {
         float: none;
         margin: 0 10px;
     }
+
     .rex-about .rex-about-img img {
         width: 100%;
     }
+
     .rex-about .rex-about-text {
         margin-bottom: 40px;
         margin-top: 40px;
         text-align: center;
     }
+
     .rex-feature article .rex-feature-box h4 {
         font-size: 15px;
     }
+
     .rex-service .rex-service-content {
         padding: 100px 15px;
     }
+
     .rex-service .rex-service-content h5 {
         text-align: center;
     }
+
     .rex-service .rex-service-content .article {
         text-align: center;
     }
+
     .rex-service .rex-service-content .article i {
         float: none;
         margin-right: 0;
     }
+
     .rex-team .rex-top-lawyer img {
         width: 100%;
     }
+
     .rex-team .padding-right {
         padding-right: 15px;
     }
+
     .rex-team .rex-team-content {
         margin-bottom: 18px;
         margin-top: 20px;
         min-height: 480px;
         padding: 0 15px;
     }
+
     .rex-team .rex-team-content p {
         padding: 15px 15px 15px 0;
     }
+
     .rex-team .rex-team-content img {
         width: 80px;
         margin-right: 0;
     }
+
     .rex-team .lawyer-social-media img {
         width: 143px;
     }
+
     .rex-team .rex-team-img {
         margin-bottom: 20px;
     }
+
     .rex-achievment {
         overflow: hidden;
     }
+
     .rex-achievment .rex-achievment-list ul li {
         width: 100%;
     }
+
     .rex-blog .row {
         margin: 0;
     }
+
     .rex-blog .rex-blog-content {
         margin-bottom: 25px;
     }
+
     .rex-blog .caption {
         padding-left: 15px;
         text-align: center;
     }
+
     .rex-blog .caption br {
         display: none;
     }
+
     .plan .content .col {
         margin-bottom: 20px;
     }
+
     .plan .text-content .top-icon {
         padding-bottom: 15px;
     }
+
     .plan .text-content br {
         display: none;
     }
+
     .rex-contact .rex-address {
         margin-bottom: 25px;
     }
+
     .rex-contact .form-section {
         padding: 60px 40px 39px 40px;
     }
+
     .rex-contact .form-section .col-md-6:first-child {
         padding-right: 0;
     }
+
     .rex-contact .form-section .col-md-6:last-child {
         padding-left: 0;
         margin-top: 15px;
     }
+
     .rex-contact .form-section .col-md-6:last-child i {
         left: 14px;
     }
+
     .footer-top .footer-logo-area {
         margin-bottom: 40px;
     }
+
     .footer-top .content {
         margin-bottom: 40px;
     }
+
     .rex-blog-boader {
         padding: 4%;
     }
+
     .rex-blog-comment .rex-comment-author-img {
         float: left;
         text-align: center;
         width: 27%;
         min-height: 0;
     }
+
     .rex-blog-seftion ul {
         margin: 0;
         padding: 0;
     }
+
     .rex-blog-seftion ul li {
         list-style: none;
     }
+
     .rex-blog-seftion ul li ul li {
         margin-left: 5px;
         margin-top: -10px;
     }
+
     .rex-blog-seftion ul li ul li ul li {
         margin-left: 5px;
         margin-bottom: 30px;
     }
+
     .rex-blog-tag-box .rex-tag-left {
         width: 100%;
         margin-bottom: 20px;
     }
+
     .backtop {
         margin-bottom: 10px;
         margin-right: 10px;
@@ -3793,6 +3999,7 @@ footer p {
 .disabled {
     cursor: not-allowed
 }
+
 .area-content {
     height: 82px;
     text-align: justify;
@@ -3802,12 +4009,14 @@ footer p {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .rx-iner-page-titel {
     background: url(../img/call-to-action.png) no-repeat center center;
     text-align: center;
     background-size: cover;
     padding: 45px 0 40px;
 }
+
 .service-container p {
     font-size: 18px;
     line-height: 1.5;
@@ -3815,25 +4024,32 @@ footer p {
     text-indent: 6em;
     text-align: justify;
 }
-.service-container > div {
+
+.service-container>div {
     display: none;
     padding-top: 10%;
 }
+
 .service-container li {
     font-size: 18px;
 }
+
 .service-container ol {
     padding-left: 55px;
 }
+
 .service-container ul p {
     text-indent: 2em;
 }
-.service-container > div:nth-child(1) {
+
+.service-container>div:nth-child(1) {
     display: block;
 }
+
 #services-lists a {
     cursor: pointer;
 }
+
 .rex-widget .content {
     padding-top: 17%;
 }
