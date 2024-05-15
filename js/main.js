@@ -56,11 +56,11 @@ jQuery(document).ready(function (e) {
             }),
             e("#googleMap").length)
     ) {
-        var t = { center: new google.maps.LatLng(19.0608926, 72.8626589), zoom: 18, mapTypeId: google.maps.MapTypeId.ROADMAP, };
+        var t = { center: new google.maps.LatLng(19.1978391, 72.8486146), zoom: 18, mapTypeId: google.maps.MapTypeId.ROADMAP, };
         var googleMapObject = new google.maps.Map(document.getElementById("googleMap"), t);
 
         var mapMarker = new google.maps.Marker({
-            position: { lat: 19.0608926, lng: 72.8626589 },
+            position: { lat: 19.1978391, lng: 72.8486146 },
             map: googleMapObject,
             icon: '/img/map-marker.png',
             title: 'D. P. Thakkar & Co.',
